@@ -75,7 +75,7 @@ const Post = () => {
 
 
   return (
-    <div className="flex  justify-center w-screen items-center h-screen 
+    <div className="flex  h-screen justify-center w-screen  
     bg-[url('https://d.furaffinity.net/art/murcielagomedula/1300569075/1300569075.murcielagomedula_apophysis-110319-5.jpg')] overflow-auto
     ">
         
