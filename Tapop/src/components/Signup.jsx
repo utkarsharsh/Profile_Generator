@@ -118,12 +118,12 @@ const Signup = () => {
         }}>
      <Image/>
 
-    <div className="h-[98%] p-6  rounded  bg-transparent  sm:bg-white sm:h-6/6 mb-5overflow-auto w-[100%] md:w-[60%]">
+    <div className="h-[98%] p-6  rounded  bg-transparent  sm:bg-white sm:h-6/6 mb-5 overflow-auto w-[100%] md:w-[60%]">
       <h2 className="text-2xl mb-2 text-center text-white sm:text-blue-500 sm:font-bold">Sign Up</h2>
       {successMessage && (
         <div className="bg-green-200 text-green-700 p-3 rounded mb-4">{successMessage}</div>
       )}
-      <form onSubmit={handleSubmit(onSubmit)} className=' overflow-hidden'> 
+      <form onSubmit={handleSubmit(onSubmit)} className=''> 
         <input type="file" ref={refer} className='hidden' onChange={handleurlchange}/>
         <div className='flex justify-center align-middle mb-2 mt-2 cursor-pointer' onClick={()=>{
             refer.current.click();
